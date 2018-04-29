@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="355.0" style="-: ;" styleClass="init" stylesheets="@calendarview.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kencode.projects.calendar.view.InitiateViewController">
+   <children>
+      <JFXTextField fx:id="txtDate" focusColor="#4000ff40" maxWidth="175.0" minWidth="138.0" prefHeight="31.0" prefWidth="175.0" promptText="You can select or type Date" style="-fx-text-inner-color: white;" unFocusColor="RED">
+         <font>
+            <Font size="13.0" />
+         </font></JFXTextField>
+      <JFXButton fx:id="btn" buttonType="RAISED" layoutX="175.0" layoutY="5.0" onAction="#iconOnAction" prefHeight="31.0" prefWidth="77.0" ripplerFill="#0040ff" style="-fx-background-color: black;" text="CALENDAR" textFill="WHITE" />
+      <JFXDrawer fx:id="calendarDrawer" defaultDrawerSize="350.0" direction="RIGHT" layoutY="38.0" prefHeight="350.0" prefWidth="250.0" />
+      <JFXDrawer fx:id="changeDrawer" defaultDrawerSize="106.0" layoutX="247.0" layoutY="106.0" prefHeight="152.0" prefWidth="106.0" />
+      <JFXButton fx:id="closeBtn" buttonType="RAISED" layoutX="278.0" layoutY="5.0" onAction="#closeOnAction" prefHeight="31.0" prefWidth="68.0" ripplerFill="#0040ff" style="-fx-background-color: red;" text="CLOSE" textFill="WHITE" />
+   </children>
+</AnchorPane>

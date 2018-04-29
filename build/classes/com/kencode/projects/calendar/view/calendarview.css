@@ -1,0 +1,49 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.Anchor{
+    -fx-background-color: #353232
+}
+
+.Labels:hover{
+    -fx-background-color: turquoise;
+    -fx-background-radius: 30%
+}
+.LabelsS:hover{
+    -fx-background-color: orange;
+    -fx-background-radius: 30%
+}
+.btnWE:hover{
+    -fx-background-color: red
+}
+.btnW:hover{
+    -fx-background-color: orange
+}
+.btnPress{
+    -fx-background-radius: 45%;
+  
+}
+.btnPress1{
+    -fx-background-radius: 45%;
+  
+}
+.btnPress:hover{
+   
+    -fx-background-color:yellow;
+}
+.btnPress1:hover{
+   
+    -fx-background-color:orange;
+}
+.btnPress1:pressed{
+   
+    -fx-background-color:green;
+}
+.btnPress:pressed{
+   
+    -fx-background-color:red;
+}

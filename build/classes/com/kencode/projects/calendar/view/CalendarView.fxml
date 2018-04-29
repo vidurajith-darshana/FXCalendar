@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="250.0" styleClass="Anchor" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@calendarview.css" />
+    </stylesheets>
+   <children>
+      <Label fx:id="lblMonth" layoutX="124.0" prefHeight="40.0" prefWidth="123.0" text="JANUARY">
+         <font>
+            <Font name="Eras Demi ITC" size="19.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#e40c0c" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="lblYear" layoutX="7.0" prefHeight="40.0" prefWidth="61.0" text="2017" textFill="#39a6a8">
+         <font>
+            <Font name="Eras Demi ITC" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="74.0" prefHeight="23.0" prefWidth="31.0" styleClass="Labels" text="Mon" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="40.0" layoutY="74.0" prefHeight="23.0" prefWidth="31.0" styleClass="Labels" text="Tue" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="74.0" layoutY="74.0" prefHeight="23.0" prefWidth="31.0" styleClass="Labels" text="Wed" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="109.0" layoutY="74.0" prefHeight="23.0" prefWidth="31.0" styleClass="Labels" text="Thu" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="143.0" layoutY="74.0" prefHeight="23.0" prefWidth="31.0" styleClass="Labels" text="Fri" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="178.0" layoutY="74.0" prefHeight="23.0" prefWidth="31.0" styleClass="LabelsS" text="Sat" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="214.0" layoutY="74.0" prefHeight="23.0" prefWidth="31.0" styleClass="LabelsS" text="Sun" textFill="WHITE" />
+      <JFXButton fx:id="btn7" buttonType="RAISED" layoutX="215.0" layoutY="107.0" onAction="#btn7OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="01" textFill="WHITE" />
+      <JFXButton fx:id="btn14" buttonType="RAISED" layoutX="215.0" layoutY="148.0" onAction="#btn14OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="08" textFill="WHITE" />
+      <JFXButton fx:id="btn13" buttonType="RAISED" layoutX="178.0" layoutY="148.0" onAction="#btn13OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="07" textFill="WHITE" />
+      <JFXButton fx:id="btn12" buttonType="RAISED" layoutX="143.0" layoutY="148.0" onAction="#btn12OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="06" textFill="WHITE" />
+      <JFXButton fx:id="btn11" buttonType="RAISED" layoutX="109.0" layoutY="148.0" onAction="#btn11OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="05" textFill="WHITE" />
+      <JFXButton fx:id="btn10" buttonType="RAISED" layoutX="74.0" layoutY="148.0" onAction="#btn10OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="04" textFill="WHITE" />
+      <JFXButton fx:id="btn9" buttonType="RAISED" layoutX="40.0" layoutY="148.0" onAction="#btn9OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="03" textFill="WHITE" />
+      <JFXButton fx:id="btn8" buttonType="RAISED" layoutX="6.0" layoutY="148.0" onAction="#btn8OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="02" textFill="WHITE" />
+      <JFXButton fx:id="btn15" buttonType="RAISED" layoutX="6.0" layoutY="195.0" onAction="#btn15OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="09" textFill="WHITE" />
+      <JFXButton fx:id="btn16" buttonType="RAISED" layoutX="40.0" layoutY="195.0" onAction="#btn16OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="10" textFill="WHITE" />
+      <JFXButton fx:id="btn17" buttonType="RAISED" layoutX="74.0" layoutY="195.0" onAction="#btn17OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="11" textFill="WHITE" />
+      <JFXButton fx:id="btn18" buttonType="RAISED" layoutX="109.0" layoutY="195.0" onAction="#btn18OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="12" textFill="WHITE" />
+      <JFXButton fx:id="btn19" buttonType="RAISED" layoutX="143.0" layoutY="195.0" onAction="#btn19OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="13" textFill="WHITE" />
+      <JFXButton fx:id="btn20" buttonType="RAISED" layoutX="178.0" layoutY="195.0" onAction="#btn20OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="14" textFill="WHITE" />
+      <JFXButton fx:id="btn21" buttonType="RAISED" layoutX="214.0" layoutY="194.0" onAction="#btn21OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="15" textFill="WHITE" />
+      <JFXButton fx:id="btn28" buttonType="RAISED" layoutX="213.0" layoutY="239.0" onAction="#btn28OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="22" textFill="WHITE" />
+      <JFXButton fx:id="btn27" buttonType="RAISED" layoutX="177.0" layoutY="239.0" onAction="#btn27OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="21" textFill="WHITE" />
+      <JFXButton fx:id="btn34" buttonType="RAISED" layoutX="177.0" layoutY="282.0" onAction="#btn34OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="28" textFill="WHITE" />
+      <JFXButton fx:id="btn35" buttonType="RAISED" layoutX="213.0" layoutY="282.0" onAction="#btn35OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" text="29" textFill="WHITE" />
+      <JFXButton fx:id="btn26" buttonType="RAISED" layoutX="144.0" layoutY="239.0" onAction="#btn26OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="20" textFill="WHITE" />
+      <JFXButton fx:id="btn25" buttonType="RAISED" layoutX="110.0" layoutY="239.0" onAction="#btn25OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="19" textFill="WHITE" />
+      <JFXButton fx:id="btn24" buttonType="RAISED" layoutX="75.0" layoutY="239.0" onAction="#btn24OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="18" textFill="WHITE" />
+      <JFXButton fx:id="btn23" buttonType="RAISED" layoutX="41.0" layoutY="239.0" onAction="#btn23OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="17" textFill="WHITE" />
+      <JFXButton fx:id="btn22" buttonType="RAISED" layoutX="7.0" layoutY="239.0" onAction="#btn22OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="16" textFill="WHITE" />
+      <JFXButton fx:id="btn29" buttonType="RAISED" layoutX="6.0" layoutY="282.0" onAction="#btn29OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="23" textFill="WHITE" />
+      <JFXButton fx:id="btn30" buttonType="RAISED" layoutX="40.0" layoutY="282.0" onAction="#btn30OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="24" textFill="WHITE" />
+      <JFXButton fx:id="btn31" buttonType="RAISED" layoutX="74.0" layoutY="282.0" onAction="#btn31OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="25" textFill="WHITE" />
+      <JFXButton fx:id="btn32" buttonType="RAISED" layoutX="109.0" layoutY="282.0" onAction="#btn32OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="26" textFill="WHITE" />
+      <JFXButton fx:id="btn33" buttonType="RAISED" layoutX="143.0" layoutY="282.0" onAction="#btn33OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="27" textFill="WHITE" />
+      <JFXButton fx:id="btn36" buttonType="RAISED" layoutX="7.0" layoutY="320.0" onAction="#btn36OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="30" textFill="WHITE" />
+      <JFXButton fx:id="btn37" buttonType="RAISED" layoutX="41.0" layoutY="320.0" onAction="#btn37OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" text="31" textFill="WHITE" />
+      <JFXButton fx:id="btn38" buttonType="RAISED" layoutX="75.0" layoutY="320.0" onAction="#btn38OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn40" buttonType="RAISED" layoutX="144.0" layoutY="320.0" onAction="#btn40OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn39" buttonType="RAISED" layoutX="110.0" layoutY="320.0" onAction="#btn39OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn42" buttonType="RAISED" layoutX="214.0" layoutY="320.0" onAction="#btn42OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn41" buttonType="RAISED" layoutX="178.0" layoutY="320.0" onAction="#btn41OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn1" buttonType="RAISED" layoutX="9.0" layoutY="107.0" onAction="#btn1OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn2" buttonType="RAISED" layoutX="43.0" layoutY="107.0" onAction="#btn2OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn3" buttonType="RAISED" layoutX="77.0" layoutY="107.0" onAction="#btn3OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn4" buttonType="RAISED" layoutX="112.0" layoutY="107.0" onAction="#btn4OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn5" buttonType="RAISED" layoutX="146.0" layoutY="107.0" onAction="#btn5OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#00ff3b" styleClass="btnW" stylesheets="@calendarview.css" textFill="WHITE" />
+      <JFXButton fx:id="btn6" buttonType="RAISED" layoutX="181.0" layoutY="107.0" onAction="#btn6OnAction" prefHeight="25.0" prefWidth="31.0" ripplerFill="#001eff" styleClass="btnWE" stylesheets="@calendarview.css" textFill="WHITE" />
+   </children>
+</AnchorPane>
